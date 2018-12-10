@@ -2,10 +2,11 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import { Box, Heading } from 'grommet';
 import { Link } from 'gatsby'
+import Nav from './Nav';
 
 const Header = ({ siteTitle }) => (
-  <Box background="brand" tag="header">
-    <Box pad="medium">
+  <Box pad="medium" background="brand" tag="header">
+    <Box>
       <Heading margin="none">
         <Link
           to="/"
@@ -17,6 +18,9 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </Heading>
+    </Box>
+    <Box direction="row" pad={{ top: 'small' }}>
+      <Nav />
     </Box>
   </Box>
 )

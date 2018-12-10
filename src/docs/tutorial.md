@@ -1,6 +1,6 @@
 ---
 path: "/docs/tutorial"
-title: "How to do things with computers"
+title: "Tutorial"
 ---
 Lorem ipsum dolor amet sartorial bicycle rights selvage street art bitters. Squid thundercats pabst, migas fanny pack fam you probably haven't heard of them pok pok hashtag cred. IPhone tote bag art party sriracha fixie, VHS cloud bread coloring book plaid activated charcoal blue bottle listicle copper mug. Hammock slow-carb wayfarers mumblecore polaroid roof party. Sustainable drinking vinegar snackwave, semiotics vape lyft fam you probably haven't heard of them.
 
