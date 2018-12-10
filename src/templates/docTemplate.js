@@ -1,29 +1,30 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { Box, Heading, Markdown } from 'grommet';
+import Layout from '../components/Layout';
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
+  console.log(data);
   const { markdownRemark } = data // data.markdownRemark holds our post data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, rawMarkdownBody } = markdownRemark
   return (
-    <div className="blog-post-container">
-      <div className="blog-post">
-        <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-      </div>
-    </div>
+    <Layout>
+      <Box pad="medium">
+        <Heading>{frontmatter.title}</Heading>
+        <Markdown>
+          {rawMarkdownBody}
+        </Markdown>
+      </Box>
+    </Layout>
   )
 }
 
 export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
+      rawMarkdownBody
       frontmatter {
         path
         title
