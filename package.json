@@ -1,6 +1,6 @@
 {
-  "name": "grommet-docs-start",
-  "description": "Grommet documentation example",
+  "name": "grommet-docs-starter",
+  "description": "Grommet documentation starter",
   "version": "1.0.0",
   "author": "Alex Mejias",
   "dependencies": {
@@ -37,6 +37,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/hpe-dev-incubator/grommet-docs-starter.git"
   }
 }
