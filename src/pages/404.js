@@ -1,10 +1,15 @@
 import React from 'react'
 import Layout from '../components/layout'
+import { Box, Heading, Paragraph } from 'grommet';
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <Box pad="medium">
+      <Heading>404</Heading>
+      <Paragraph>
+        You just hit a route that doesn&#39;t exist... the sadness.
+      </Paragraph>
+    </Box>
   </Layout>
 )
 

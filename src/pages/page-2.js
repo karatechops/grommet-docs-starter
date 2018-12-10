@@ -1,13 +1,15 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import { Box, Heading, Paragraph } from 'grommet';
 import Layout from '../components/layout'
 
 const SecondPage = () => (
   <Layout>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <Box pad="medium">
+    <Heading>Hi from the second page</Heading>
+    <Paragraph>Welcome to page 2</Paragraph>
     <Link to="/">Go back to the homepage</Link>
+    </Box>
   </Layout>
 )
 
