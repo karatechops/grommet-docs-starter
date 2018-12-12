@@ -27,6 +27,7 @@ const Nav = () => (
             style={{ // Temp styles
               textDecoration: 'none'
             }}
+            key={node.frontmatter.path}
           >
             <Text
               color="light-2"
