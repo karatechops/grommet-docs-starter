@@ -48,9 +48,10 @@ const Layout = ({ children }) => (
               width="100%"
               height="100vh"
               style={{ overflow: 'auto' }}
+              pad={{ horizontal: 'large', vertical: 'medium' }}
             >
               <Box flex={false}> {/* Disable flex shrink otherwise content is squished */}
-              {children}
+                {children}
               </Box>
             </Box>
           </Box>
