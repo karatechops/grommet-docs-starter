@@ -1,6 +1,6 @@
 import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
-import { Text } from 'grommet';
+import { Box, Text } from 'grommet';
 
 const Nav = () => (
   <StaticQuery
@@ -19,7 +19,8 @@ const Nav = () => (
         }
       }
     `}
-    render={data => <>
+    render={data =>
+      <Box gap="small">
       {data.allMarkdownRemark && data.allMarkdownRemark.edges.length > 0 &&
         data.allMarkdownRemark.edges.map(({ node }) =>
           <Link
@@ -38,7 +39,8 @@ const Nav = () => (
           </Link>
         )
       }
-    </>}
+      </Box>}
   />
 )
+
 export default Nav

@@ -5,23 +5,18 @@ import { Link } from 'gatsby'
 import Nav from './Nav';
 
 const Header = ({ siteTitle }) => (
-  <Box pad="medium" background="brand" tag="header">
-    <Box>
-      <Heading margin="none">
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </Heading>
-    </Box>
-    <Box direction="row" pad={{ top: 'small' }}>
-      <Nav />
-    </Box>
+  <Box tag="header">
+    <Heading margin={{ bottom: 'medium' }}>
+      <Link
+        to="/"
+        style={{
+          color: 'white',
+          textDecoration: 'none',
+        }}
+      >
+        {siteTitle}
+      </Link>
+    </Heading>
   </Box>
 )
 
