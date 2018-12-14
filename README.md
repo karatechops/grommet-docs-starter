@@ -1,25 +1,32 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby's default starter
+  Grommet docs starter
 </h1>
 
-Kick off your project with this default boilerplate ([live demo](https://gatsby-starter-default-demo.netlify.com/)). This barebones starter ships with the main Gatsby configuration files you might need. 
+## 👋 Introduction
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+The Grommet docs starter is a project focused primarily on providing the simplest content editing and deployment experience possible. The project and documentation are still a work in progress.
 
-## 🚀 Quick start
+## ✍️ Creating content
 
-1.  **Create a Gatsby site.**
+[Gatsby](https://www.gatsbyjs.org/) allows your docs to be maintained directly through Github. The below guide will walk you through creating a new docs article.
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+1. Create a new article by navigating to the `/src/docs` directory and click the `create new file` button. 
+
+1. Name your file and include the `.md` extension - `my-new-doc.md`.
+
+1. Add your markdown content in the window. You can learn more about Markdown [here](https://guides.github.com/features/mastering-markdown/).
+
+1. At the bottom of the window name your commit or use the prefilled value and hit `Commit new file`.
+
+You can optionaly add images to your article by dragging and dropping the image in the `/static/images` folder directly in Github. You can then reference images in your article with the following syntax `![my cool picture](/images/my-picture.png)`.
+
+## 🚀 Quick start to develop
+
+1.  **Clone the repo.**
 
     ```sh
-    # create a new Gatsby site using the default starter
-    npx gatsby new my-default-starter
+    # create a new docs starter using this repo
+    git clone https://github.com/grommet/my-repo.git #repo URL TBD...
     ```
 
 1.  **Start developing.**
@@ -27,7 +34,8 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-default-starter/
+    cd grommet-docs-starter
+    yarn
     gatsby develop
     ```
 
@@ -37,9 +45,9 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     
     *Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).*
     
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the `grommet-docs-start` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
     
-## 🧐 What's inside?
+## Gatsby Technical Info
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 

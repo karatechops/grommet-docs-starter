@@ -4,9 +4,7 @@ title: "Introduction"
 ---
 Lorem ipsum dolor amet la croix live-edge enamel pin cold-pressed hexagon kitsch. Dreamcatcher four loko tilde, truffaut lyft cliche coloring book church-key master cleanse man braid prism locavore flannel. Viral neutra austin hot chicken butcher bespoke meditation tofu knausgaard pour-over cray. [Whatever](https://grommet.io) kale chips franzen, four loko polaroid butcher sartorial.
 
-Spacing is tight, this should be a new paragraph.
-
-## **Bold Heading - broken**
+## **Bold Heading**
 
 This is a picture of a library.
 
