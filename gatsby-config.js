@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/grommet-docs-starter",
   siteMetadata: {
     title: 'Grommet Docs Starter',
   },
