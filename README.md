@@ -103,3 +103,8 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+
+To deploy to Github Pages using the [gh-pages](https://www.npmjs.com/package/gh-pages) dependency run the following command
+```sh
+yarn deploy
+```
