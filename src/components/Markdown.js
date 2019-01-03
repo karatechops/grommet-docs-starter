@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { Markdown as GrommetMarkdown, Box, Text } from 'grommet';
+import { Markdown as GrommetMarkdown, Box, Text, Paragraph } from 'grommet';
 
 const Quote = ({ children, ...rest }) =>
   <Box
@@ -54,6 +54,12 @@ export const Markdown = ({ children, ...rest }) =>
       code: {
         component: Code
       },
+      p: {
+        component: Paragraph,
+        props: {
+          size: 'large'
+        }
+      }
     }}
     {...rest}
   >
