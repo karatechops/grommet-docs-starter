@@ -11,7 +11,7 @@ export default function Template({
   const { frontmatter, rawMarkdownBody } = markdownRemark
   return (
     <Layout>
-      <Box>
+      <Box width="large">
         <Heading margin="none">{frontmatter.title}</Heading>
         <Markdown>
           {rawMarkdownBody}
