@@ -4,6 +4,9 @@ module.exports = {
     title: 'Grommet Docs Starter',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-styled-components`
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     {
