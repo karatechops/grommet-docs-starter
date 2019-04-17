@@ -7,7 +7,7 @@ import Image from '../components/Image'
 const IndexPage = () => (
   <Layout>
     <Box pad="medium">
-      <Heading>Hi people</Heading>
+      <Heading>Hi everybody!</Heading>
       <Paragraph>Welcome to your new Grommet Gatsby site.</Paragraph>
       <Box width="medium">
         <Image />
