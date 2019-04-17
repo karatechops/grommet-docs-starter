@@ -30,7 +30,14 @@ jobs:
 
       - run:
           name: Gatsby Build
-          command: ./node_modules/.bin/gatsby build --prefix-paths
+          command: |
+            ./node_modules/.bin/gatsby build --prefix-paths
+            git config user.email "ci-bot@lazers.tv"
+            git config user.name "lazersbot"
+
+        - add_ssh_keys:
+          fingerprints:
+            - "13:c6:22:7f:3b:87:56:00:75:56:e2:2c:dc:cc:e7:be"
       
       - run:
           name: Github Pages Deploy
