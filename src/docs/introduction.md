@@ -8,7 +8,7 @@ Lorem ipsum dolor amet la croix live-edge enamel pin cold-pressed hexagon kitsch
 
 This is a picture of a library.
 
-![the library](/images/library.jpg)
+![the library](images/library.jpg)
 
 > quoted text  
 > -me
