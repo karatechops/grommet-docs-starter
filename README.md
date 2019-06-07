@@ -26,7 +26,7 @@ You can optionaly add images to your article by dragging and dropping the image 
 
     ```sh
     # create a new docs starter using this repo
-    git clone https://github.com/grommet/my-repo.git #repo URL TBD...
+    git clone https://github.com/karatechops/grommet-docs-starter.git 
     ```
 
 1.  **Start developing.**
